@@ -5,7 +5,7 @@ all characters going up first, drop them off, and then do the same thing for the
 
 ## Getting Started
 
-Download zip and run app.py from within the root directory on your terminal with the command: python app.py
+Download zip and run app.py from within the root directory on your terminal with the command: python app.py. If running windows you can also go to dist/app/app.exe after downloading and run the executable file.
 
 After starting up the app, a main menu is presented. Here, the user can either choose to create a 
 new character, ride as a single character, or if several characters were already made, ride as multiple characters.
