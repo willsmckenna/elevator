@@ -40,6 +40,8 @@ def call_elevator(user: User):
     #else it was a false request, don't move to them
     else:
         print("User already at destination floor, pick another floor")
+        print("Going back to User Menu...")
+        prompt_ride_elevator()
 
 def transport_user(user: User, direction):
     floors_to_dest = abs(user.dest_floor - elevator.curr_floor)
